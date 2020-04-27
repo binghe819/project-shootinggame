@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="819c3979-a11c-4f14-977e-582e84ca8fcc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/2019WorldWar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019WorldWar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019WorldWar/ETC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019WorldWar/ETC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019WorldWar/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019WorldWar/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019WorldWar/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019WorldWar/img/F4K.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1b70qCXzUvNJkzythUxcloMxkxd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="2019WorldWar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="819c3979-a11c-4f14-977e-582e84ca8fcc" name="Default Changelist" comment="" />
+      <created>1587968012872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587968012872</updated>
+      <workItem from="1587968018828" duration="22000" />
+      <workItem from="1587971570810" duration="11080000" />
+      <workItem from="1588013256976" duration="1323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="948" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1587991000599">
+      <screen x="0" y="23" width="2560" height="1015" />
+    </state>
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587977889925" />
+    <state x="948" y="192" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1080@0.0.2560.1080" timestamp="1587983763321" />
+    <state x="948" y="203" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1015@0.23.2560.1015" timestamp="1587991000599" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587973736619">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587973736619" />
+    <state width="1238" height="258" key="GridCell.Tab.0.bottom" timestamp="1588015145452">
+      <screen x="0" y="23" width="2560" height="1015" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587978076611" />
+    <state width="2518" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1588014018856" />
+    <state width="1238" height="258" key="GridCell.Tab.0.bottom/0.23.2560.1015@0.23.2560.1015" timestamp="1588015145452" />
+    <state width="1238" height="240" key="GridCell.Tab.0.bottom/0.23.2560.1057@0.23.2560.1057" timestamp="1587989546320" />
+    <state width="1238" height="258" key="GridCell.Tab.0.center" timestamp="1588015145451">
+      <screen x="0" y="23" width="2560" height="1015" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587978076610" />
+    <state width="2518" height="258" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1588014018854" />
+    <state width="1238" height="258" key="GridCell.Tab.0.center/0.23.2560.1015@0.23.2560.1015" timestamp="1588015145451" />
+    <state width="1238" height="240" key="GridCell.Tab.0.center/0.23.2560.1057@0.23.2560.1057" timestamp="1587989546320" />
+    <state width="1238" height="258" key="GridCell.Tab.0.left" timestamp="1588015145451">
+      <screen x="0" y="23" width="2560" height="1015" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587978076609" />
+    <state width="2518" height="258" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1588014018852" />
+    <state width="1238" height="258" key="GridCell.Tab.0.left/0.23.2560.1015@0.23.2560.1015" timestamp="1588015145451" />
+    <state width="1238" height="240" key="GridCell.Tab.0.left/0.23.2560.1057@0.23.2560.1057" timestamp="1587989546320" />
+    <state width="1238" height="258" key="GridCell.Tab.0.right" timestamp="1588015145451">
+      <screen x="0" y="23" width="2560" height="1015" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587978076611" />
+    <state width="2518" height="258" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1588014018854" />
+    <state width="1238" height="258" key="GridCell.Tab.0.right/0.23.2560.1015@0.23.2560.1015" timestamp="1588015145451" />
+    <state width="1238" height="240" key="GridCell.Tab.0.right/0.23.2560.1057@0.23.2560.1057" timestamp="1587989546320" />
+    <state width="1238" height="335" key="GridCell.Tab.1.bottom" timestamp="1587991404221">
+      <screen x="0" y="23" width="2560" height="1015" />
+    </state>
+    <state width="1238" height="335" key="GridCell.Tab.1.bottom/0.23.2560.1015@0.23.2560.1015" timestamp="1587991404221" />
+    <state width="1238" height="335" key="GridCell.Tab.1.center" timestamp="1587991404220">
+      <screen x="0" y="23" width="2560" height="1015" />
+    </state>
+    <state width="1238" height="335" key="GridCell.Tab.1.center/0.23.2560.1015@0.23.2560.1015" timestamp="1587991404220" />
+    <state width="1238" height="335" key="GridCell.Tab.1.left" timestamp="1587991404219">
+      <screen x="0" y="23" width="2560" height="1015" />
+    </state>
+    <state width="1238" height="335" key="GridCell.Tab.1.left/0.23.2560.1015@0.23.2560.1015" timestamp="1587991404219" />
+    <state width="1238" height="335" key="GridCell.Tab.1.right" timestamp="1587991404220">
+      <screen x="0" y="23" width="2560" height="1015" />
+    </state>
+    <state width="1238" height="335" key="GridCell.Tab.1.right/0.23.2560.1015@0.23.2560.1015" timestamp="1587991404220" />
+  </component>
+</project>
