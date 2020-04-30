@@ -23,10 +23,28 @@ class Game_Unit {
 class Player extends Game_Unit{
     Player() {
         this.HP = 100;
-        this.pos = new Point(100,100);
+        this.pos = new Point(100,240);
         this.width = 60;
         this.height = 13;
         img = ETC.tk.getImage("res/img/F4K.png");
     }
 }
 
+class Missile {
+    Point pos;
+    int angle; // 총알 날아가는 각도.
+    int speed; // 총알 속도.
+    Image img;
+
+    public Missile(Point pos, int angle, int speed){
+        this.angle = angle;
+        this.speed = speed;
+        this.pos = pos;
+        this.img = ETC.tk.getImage("res/img/PlayerMissile.png");
+    }
+
+    public void move() {
+        this.pos.x += Math.cos(Math.toRadians(this.angle))*this.speed;
+        this.pos.y += Math.sin(Math.toRadians(this.angle))*this.speed;
+    }
+}

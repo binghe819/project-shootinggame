@@ -3,7 +3,8 @@
 public class Main {
 
     public static void main(String[] args){
-        Game_View game_view = new Game_View();
-//        new Thread(game_view).start();
+        Game_Model model = new Game_Model();
+        Game_Control controller = new Game_Control(model);
+        Game_View view = new Game_View(model, controller);
     }
 }
