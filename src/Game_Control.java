@@ -93,16 +93,22 @@ public class Game_Control extends KeyAdapter implements Runnable{
     }
 
     // 미사일 움직임 로직.
-    public void missileProcess(){
-        // 플레이어 총알 움직임.
-        for(int i = 0; i < this.model.playerMissile.size(); i++){
+    public void missileProcess() {
+        // 플레이어 미사일 움직임.
+        for (int i = 0; i < this.model.playerMissile.size(); i++) {
             Missile missile = this.model.playerMissile.get(i);
             missile.move();
-            if(missile.pos.x > 854)
+            // 미사일이 화면에서 나가면 제거.
+            if (missile.pos.x > 854)
                 this.model.playerMissile.remove(i);
         }
+    }
 
-
+    // 비행기 움직임 로직.
+    public void flightsProcess(){
+        // 적 비행기 움직임.
+        for(int i = 0; i < model.enemyFlights.size(); i++)
+            this.model.enemyFlights.get(i).move();
     }
 
     @Override
@@ -111,6 +117,7 @@ public class Game_Control extends KeyAdapter implements Runnable{
             while(true){
                 keyProcess();
                 missileProcess();
+                flightsProcess();
                 Thread.sleep(20);
             }
         } catch (Exception e){

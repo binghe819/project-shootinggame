@@ -21,16 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="819c3979-a11c-4f14-977e-582e84ca8fcc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019WorldWar/Bullet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019WorldWar/Game_Control.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019WorldWar/Game_Control.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019WorldWar/Game_View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019WorldWar/Game_View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019WorldWar/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019WorldWar/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game_Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Control.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game_Missile.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game_Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game_Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Unit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +91,8 @@
       <workItem from="1588013256976" duration="1323000" />
       <workItem from="1588066893130" duration="4293000" />
       <workItem from="1588140716678" duration="5674000" />
-      <workItem from="1588230026776" duration="2794000" />
+      <workItem from="1588230026776" duration="3965000" />
+      <workItem from="1588328910577" duration="3375000" />
     </task>
     <servers />
   </component>
@@ -117,45 +112,45 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1588149322559">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1588330185384">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1588149322559" />
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1588330185384" />
     <state x="948" y="192" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1080@0.0.2560.1080" timestamp="1587983763321" />
     <state x="948" y="203" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1015@0.23.2560.1015" timestamp="1587991000599" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587973736619">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587973736619" />
-    <state width="1398" height="267" key="GridCell.Tab.0.bottom" timestamp="1588233155987">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2518" height="213" key="GridCell.Tab.0.bottom" timestamp="1588341260306">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1398" height="267" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588233155987" />
-    <state width="2518" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1588014018856" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588330033039" />
+    <state width="2518" height="213" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1588341260306" />
     <state width="1398" height="297" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1588067076535" />
     <state width="1238" height="258" key="GridCell.Tab.0.bottom/0.23.2560.1015@0.23.2560.1015" timestamp="1588015145452" />
     <state width="1238" height="240" key="GridCell.Tab.0.bottom/0.23.2560.1057@0.23.2560.1057" timestamp="1587989546320" />
-    <state width="1398" height="267" key="GridCell.Tab.0.center" timestamp="1588233155986">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2518" height="213" key="GridCell.Tab.0.center" timestamp="1588341260304">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1398" height="267" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588233155986" />
-    <state width="2518" height="258" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1588014018854" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588330033038" />
+    <state width="2518" height="213" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1588341260304" />
     <state width="1398" height="297" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1588067076534" />
     <state width="1238" height="258" key="GridCell.Tab.0.center/0.23.2560.1015@0.23.2560.1015" timestamp="1588015145451" />
     <state width="1238" height="240" key="GridCell.Tab.0.center/0.23.2560.1057@0.23.2560.1057" timestamp="1587989546320" />
-    <state width="1398" height="267" key="GridCell.Tab.0.left" timestamp="1588233155985">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2518" height="213" key="GridCell.Tab.0.left" timestamp="1588341260304">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1398" height="267" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588233155985" />
-    <state width="2518" height="258" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1588014018852" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588330033038" />
+    <state width="2518" height="213" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1588341260304" />
     <state width="1398" height="297" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1588067076534" />
     <state width="1238" height="258" key="GridCell.Tab.0.left/0.23.2560.1015@0.23.2560.1015" timestamp="1588015145451" />
     <state width="1238" height="240" key="GridCell.Tab.0.left/0.23.2560.1057@0.23.2560.1057" timestamp="1587989546320" />
-    <state width="1398" height="267" key="GridCell.Tab.0.right" timestamp="1588233155986">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2518" height="213" key="GridCell.Tab.0.right" timestamp="1588341260305">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1398" height="267" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588233155986" />
-    <state width="2518" height="258" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1588014018854" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588330033039" />
+    <state width="2518" height="213" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1588341260305" />
     <state width="1398" height="297" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1588067076535" />
     <state width="1238" height="258" key="GridCell.Tab.0.right/0.23.2560.1015@0.23.2560.1015" timestamp="1588015145451" />
     <state width="1238" height="240" key="GridCell.Tab.0.right/0.23.2560.1057@0.23.2560.1057" timestamp="1587989546320" />

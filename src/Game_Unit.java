@@ -30,6 +30,23 @@ class Player extends Game_Unit{
     }
 }
 
+class Enemy extends  Game_Unit{
+
+    Enemy(int x, int y){
+        this.HP = 100;
+        this.pos = new Point(x, y);
+        this.width = 60;
+        this.height = 13;
+        img = ETC.tk.getImage("res/img/enemyFlight.png");
+    }
+
+    public void move(){
+        this.pos.x -= 5;
+        if(this.pos.x < 1)
+            this.pos.x = 730;
+    }
+}
+
 class Missile {
     Point pos;
     int angle; // 총알 날아가는 각도.
@@ -46,5 +63,19 @@ class Missile {
     public void move() {
         this.pos.x += Math.cos(Math.toRadians(this.angle))*this.speed;
         this.pos.y += Math.sin(Math.toRadians(this.angle))*this.speed;
+    }
+}
+
+class enemyMissile extends Missile{
+
+    public enemyMissile(Point pos, int angle, int speed) {
+        super(pos, angle, speed);
+        this.img = ETC.tk.getImage("res/img/enemyMissile.png");
+    }
+
+    @Override
+    public void move() {
+        this.pos.x -= Math.cos(Math.toRadians(this.angle))*this.speed;
+        this.pos.y -= Math.sin(Math.toRadians(this.angle))*this.speed;
     }
 }

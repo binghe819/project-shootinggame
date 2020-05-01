@@ -47,17 +47,26 @@ public class Game_View extends JFrame{
             e.printStackTrace();
         }
         buffG.drawImage(this.model.player.img,this.model.player.pos.x,this.model.player.pos.y, this); // 유저 비행기 그리기.
-        drawMissile(g);
+        drawMissile(g); // 플레이어의 미사일 그리기.
+        drawEnemyFlight(g);
         g.drawImage(buffImg,0,0,this); // 화면g애 버퍼(buffG)에 그려진 이미지(buffImg)옮김. ( 도화지에 이미지를 출력 )
         repaint();
     }
 
+    // 플레이어 미사일 출력.
     public void drawMissile(Graphics g){
-        // 플레이어 총알 출력.
+        // 플레이어 미사일
         for(int i = 0; i < this.model.playerMissile.size(); i++){
             Missile missile = this.model.playerMissile.get(i);
             buffG.drawImage(missile.img,missile.pos.x,missile.pos.y,this);
         }
+    }
 
+    // 적 비행기 출력.
+    public void drawEnemyFlight(Graphics g){
+        for(int i = 0; i < this.model.enemyFlights.size(); i++){
+            // 적 비행기 출력
+            buffG.drawImage(this.model.enemyFlights.get(i).img, this.model.enemyFlights.get(i).pos.x, this.model.enemyFlights.get(i).pos.y,this);
+        }
     }
 }
