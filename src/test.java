@@ -6,7 +6,7 @@ import java.awt.event.KeyEvent;
 public class test extends JFrame {
 
     // 유저 비행기 이미지
-    Image userFlight = ETC.tk.getImage("res/img/F4K.png");
+    Image userFlight = ETC.tk.getImage("res/img/PlayerFlight.png");
 
     int xpos = 100;
     int ypos = 100;
