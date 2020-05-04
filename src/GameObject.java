@@ -22,6 +22,7 @@ class Unit extends GameObject{
 }
 
 class Player extends Unit {
+    int score = 0;
 
     Player(int x, int y) {
         super(x,y);

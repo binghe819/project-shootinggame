@@ -17,11 +17,11 @@ public class GameModel {
         this.enemyMissiles = new ArrayList<enemyMissile>();
 
         // 적 생성 ( 기본 )
-        enemys.add(new Enemy(730, 50, 10, 5));
-        enemys.add(new Enemy(730, 150, 10, 5));
-        enemys.add(new Enemy(730, 250, 10 , 5));
-        enemys.add(new Enemy(730, 350, 10 , 5));
-        enemys.add(new Enemy(730, 450, 10 , 5));
+        enemys.add(new Enemy(730, 50, 5, 5));
+        enemys.add(new Enemy(730, 150, 5, 5));
+        enemys.add(new Enemy(730, 250, 5 , 5));
+        enemys.add(new Enemy(730, 350, 5 , 5));
+        enemys.add(new Enemy(730, 450, 5 , 5));
     }
 
 }

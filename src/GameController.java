@@ -102,8 +102,19 @@ public class GameController extends KeyAdapter implements Runnable {
             if (missile.x > 854) // 미사일이 화면에서 나가면 제거.
                 this.model.playerMissiles.remove(i);
 
-            // 충돌 처리.
+            // 충돌 처리. ( 플레이어 미사일이 적 비행기에 충돌 )
+            for(int j = 0; j < this.model.enemys.size(); j++){
+                // 만약 충돌 했다면.
+                if(Crash(missile, this.model.enemys.get(j))){
+                    this.model.enemys.get(j).HP -= 1; // 적 비행기의 HP 감소
+                }
+                // 적 비행기의 HP가 0이 되면 제거.
+                if(this.model.enemys.get(j).HP < 0){
+                    this.model.enemys.remove(j);
+                    this.model.player.score+=1;
+                }
 
+            }
         }
     }
 
@@ -116,9 +127,23 @@ public class GameController extends KeyAdapter implements Runnable {
             if(enemy.x < 10) // 적 비행기가 화면에서 나가면.
                 enemy.x = 730;
 
-            // 충돌 처리.
+            // 충돌 처리. ( 적 비행기와 플레이어 비행기의 충돌 )
+            if(Crash(this.model.player, enemy)){
+                this.model.player.HP -= enemy.HP; // 플레이어의 HP 적 비행기의 HP만큼 감소.
+                this.model.enemys.remove(i); // 적 비행기 파괴.
+            }
 
         }
+    }
+
+    // 충돌 체크
+    public boolean Crash(GameObject go1, GameObject go2){
+        // 위치값, 이미지의 높이와 길이를 이용하여 충돌 체크
+        boolean check = false;
+        if(Math.abs((go1.x + go1.width / 2) - ( go2.x + go1.width / 2)) < ( go2.width / 2 + go1.width / 2) &&
+                Math.abs( (go1.y + go1.height / 2) - (go2.y + go2.height / 2)) < ( go2.height /2 + go1.height / 2))
+            check = true;
+        return check;
     }
 
     @Override
