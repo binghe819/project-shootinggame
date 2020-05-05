@@ -18,6 +18,7 @@ public class GameController extends KeyAdapter implements Runnable {
 
     public GameController(GameModel model) {
         this.model = model;
+
     }
 
     // 키가 눌렸을 때
